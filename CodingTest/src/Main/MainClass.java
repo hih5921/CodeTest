@@ -1,6 +1,7 @@
 package Main;
 
 import Test.CodingTest_1;
+import Test.DartGame;
 import Test.FailureRate;
 import Test.Phonketmon;
 import Test.SearchPrimeNum;
@@ -10,6 +11,7 @@ public class MainClass {
 		Phonketmon phonketmon = new Phonketmon();
 		SearchPrimeNum Spn = new SearchPrimeNum();
 		FailureRate failRate = new FailureRate();
-		failRate.Solution();
+		DartGame dartGame = new DartGame();
+		dartGame.Solution();
 	}
 }
