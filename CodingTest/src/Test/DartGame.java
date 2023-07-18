@@ -6,7 +6,7 @@ import java.util.List;
 public class DartGame {
 	public void Solution() {
 		//테스트데이터
-		String dartResult = "1T2D3D#";
+		String dartResult = "1D2S#10S";
 		
 		int answer = 0;
 		//스코어는 무조건 3세트
@@ -21,12 +21,12 @@ public class DartGame {
 				//charAt으로 찢은 문자가 숫자일때만 인덱스값을 늘려줌
 				scoreIdx++;
 				//현재 찢은 문자가 1이고 다음 문자가 0일때 10으로 넣고 다음 문자열 뛰어넘기
-				if (dartResult.charAt(i) == 48 && dartResult.charAt(i + 1) == 57) {
+				if (dartResult.charAt(i) == 49 && dartResult.charAt(i + 1) == 48) {
 					score[scoreIdx] = 10;
 					i++;
 				} else {
 					//ch는 아스키 코드값을 가진 char형식의 문자이기 때문에 아스키 해당 코드값을 빼줘서 숫자로 만들어준다 
-					score[scoreIdx] = ch -48 ;
+					score[scoreIdx] = ch - 48 ;
 				}
 			} else {
 				//보너스 및 상들의 대한 switch문 

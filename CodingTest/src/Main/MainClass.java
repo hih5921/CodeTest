@@ -12,6 +12,7 @@ public class MainClass {
 		SearchPrimeNum Spn = new SearchPrimeNum();
 		FailureRate failRate = new FailureRate();
 		DartGame dartGame = new DartGame();
-		dartGame.Solution();
+		Test.Card card = new Test.Card();
+		card.Solution();
 	}
 }
