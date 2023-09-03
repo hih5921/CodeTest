@@ -7,12 +7,13 @@ import Test.MemoryScore;
 import Test.PaintOver;
 import Test.Phonketmon;
 import Test.SearchPrimeNum;
+import Test.Weapone;
 
 public class MainClass {
 	public static void main(String[] args) {
 		
-		PaintOver po = new PaintOver();
+		Weapone wp = new Weapone(); 
 		
-		po.Solution();
+		wp.Solution();
 	}
 }
