@@ -9,11 +9,12 @@ import Test.PaintOver;
 import Test.Phonketmon;
 import Test.SearchPrimeNum;
 import Test.Weapone;
+import Test_lv2.MagicElv;
 
 public class MainClass {
 	public static void main(String[] args) {
 		
-		LongJump lj = new LongJump() ;		
-		lj.Solution();
+		MagicElv me = new MagicElv();	
+		me.Solution();
 	}
 }
