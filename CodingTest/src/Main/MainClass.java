@@ -4,6 +4,7 @@ import Test.Babbling;
 import Test.CodingTest_1;
 import Test.DartGame;
 import Test.FailureRate;
+import Test.KeyPad;
 import Test.LongJump;
 import Test.LostClothes;
 import Test.MemoryScore;
@@ -17,7 +18,9 @@ import Test_lv2.MagicElv;
 public class MainClass {
 	public static void main(String[] args) {
 		
-		HIndex hi = new HIndex();	
-		hi.Solution();
+		KeyPad kp = new KeyPad();
+		kp.Solution();
+		
+		
 	}
 }
