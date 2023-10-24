@@ -2,6 +2,7 @@ package Main;
 
 import Test.Babbling;
 import Test.CodingTest_1;
+import Test.Crane;
 import Test.DartGame;
 import Test.FailureRate;
 import Test.KeyPad;
@@ -21,7 +22,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		ArrSlice as = new ArrSlice();
-		as.Solution();
+		Crane cr = new Crane();
+		cr.Solution();
 		
 		
 	}
