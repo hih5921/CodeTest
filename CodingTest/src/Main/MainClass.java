@@ -9,6 +9,7 @@ import Test.KeyPad;
 import Test.LongJump;
 import Test.LostClothes;
 import Test.MemoryScore;
+import Test.NewID;
 import Test.PaintOver;
 import Test.Phonketmon;
 import Test.SearchPrimeNum;
@@ -21,9 +22,8 @@ import Test_lv2.MagicElv;
 public class MainClass {
 	public static void main(String[] args) {
 		
-		ArrSlice as = new ArrSlice();
-		Crane cr = new Crane();
-		cr.Solution();
+		NewID ni = new NewID(); 
+		ni.Solution();
 		
 		
 	}
