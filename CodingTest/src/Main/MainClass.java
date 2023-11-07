@@ -18,12 +18,13 @@ import Test_lv2.ArrSlice;
 import Test_lv2.BinaryTransform;
 import Test_lv2.HIndex;
 import Test_lv2.MagicElv;
+import Test_lv2.StepOnGround;
 
 public class MainClass {
 	public static void main(String[] args) {
 		
-		NewID ni = new NewID(); 
-		ni.Solution();
+		StepOnGround sog = new StepOnGround(); 
+		sog.Solution();
 		
 		
 	}
