@@ -1,5 +1,10 @@
 package Main;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import Test.Babbling;
 import Test.CodingTest_1;
 import Test.Crane;
@@ -8,6 +13,7 @@ import Test.FailureRate;
 import Test.KeyPad;
 import Test.LongJump;
 import Test.LostClothes;
+import Test.MBbtiKakao;
 import Test.MemoryScore;
 import Test.NewID;
 import Test.PaintOver;
@@ -23,8 +29,8 @@ import Test_lv2.StepOnGround;
 public class MainClass {
 	public static void main(String[] args) {
 		
-		StepOnGround sog = new StepOnGround(); 
-		sog.Solution();
+		MBbtiKakao mk = new MBbtiKakao();
+		mk.Solution();
 		
 		
 	}
