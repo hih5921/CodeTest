@@ -27,13 +27,14 @@ import Test_lv2.ArrSlice;
 import Test_lv2.BinaryTransform;
 import Test_lv2.HIndex;
 import Test_lv2.MagicElv;
+import Test_lv2.Scoville;
 import Test_lv2.StepOnGround;
 
 public class MainClass {
 	public static void main(String[] args) {
 	
-		keyBoard kb = new keyBoard();
-		
-		kb.solution();
+		//keyBoard kb = new keyBoard();
+		Scoville sc = new Scoville();
+		sc.solution();
 	}
 }
